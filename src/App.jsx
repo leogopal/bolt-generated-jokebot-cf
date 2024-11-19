@@ -2,7 +2,7 @@ import { useState } from 'react'
 import ChatMessage from './components/ChatMessage'
 import ChatInput from './components/ChatInput'
 
-const WORKER_URL = 'https://cfwai-joker.leogopal.com/';
+const WORKER_URL = 'https://bolt-generated-jokebot-cf.pages.dev/';
 
 export default function App() {
   const [messages, setMessages] = useState([
